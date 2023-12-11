@@ -1,0 +1,299 @@
+body {
+    background: #f7f7f7;
+    color: #1b1b1b;
+    font-family: 'EB Garamond', serif;
+}
+
+head  {
+    width: auto;
+    max-width: 800px;
+    margin:auto;
+}
+section {
+    width: 80%;
+    max-width: 800px;
+    margin: auto;}
+
+header {
+    background: 
+    url(../img/titleimg2.jpg);
+    padding: 7rem;
+    background-size: cover;
+}
+
+img {
+    display: block;
+    padding: 0;
+    max-width: 100%}
+
+    .titleimg{
+        margin: 4em auto;
+    }
+
+    .kernloose {letter-spacing: 5px;}
+    .imgbym {margin-bottom: 4rem;}
+
+/*---- Styling typography ----*/
+h1, h2, h3{
+    font-family: 'EB Garamond', serif;
+}
+
+p,blockquote{
+    line-height: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+h1 {
+    font-size: 5.063rem;
+    color: #333;
+    font-weight: bold;
+    margin: 2rem 0 1rem;
+}
+
+h2{
+    font-size: 2.25rem;
+    color: #181818;
+    font-weight: bold;
+    margin: 2rem 0 1rem;
+}
+
+h3{
+    font-size: 1.25rem;
+    color: #333;
+    font-weight: bold;
+    margin: 2rem 0 1rem;
+}
+blockquote {
+    font-style: italic;
+    font-size: 1.25rem;
+    margin: 0;
+    hanging-punctuation: first;
+    color: #ffffff;
+}
+
+header h2 {
+  
+    font-style: italic;
+    font-family: 'EB Garamond', serif;
+    color: #6B5353;
+    margin-top: 0;
+    margin-bottom: 1.5;
+}
+
+header p {
+    font-size: 2.75rem;
+    margin-bottom: 1.5rem;
+}
+
+.leader{
+    text-transform: uppercase;
+}
+
+.dropcap {
+    float: left;
+    line-height: 100%;
+    width: 2.75rem;
+    font-size: 300%;
+    color: #6B5353;
+    font-style: bold;
+    font-family: 'EB Garamond', serif;
+    }
+
+/*--- styling links ---*/
+a{
+    color: #f7f7f7;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #333;
+    border-bottom: 1px dotted;
+}
+
+/*--- styling nav ----*/
+
+nav {
+    top: 0;
+    right: 0;
+    margin: 0;
+    width: 100%;
+    background-color: #6B5353;
+    color: #f7f7f7;
+    padding: -3rem 0;
+    font-size: 1rem;
+    position: relative;
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+nav ul{
+text-align: right;
+font-style: italic;
+letter-spacing: 1px;
+list-style-type: none;
+padding-right: 100px;
+}
+
+nav a:link{
+    color: #f7f7f7;
+}
+
+nav ul li{
+    display: inline;
+    margin: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 16px 10px;
+    margin: 0 10px;
+    text-align: center;
+}
+
+nav a:hover{
+    border-bottom: none;
+    color: #ff9e59;
+    transition: all 0.3s ease-in-out;
+}
+
+/*--alighnment of images---*/
+
+
+
+.gridimg{
+    display: grid;
+    gap: 10px;
+    row-gap: 10px;
+    grid-template-columns: repeat(auto-fill,minmax(300px, 1fr))
+}
+
+.gridimgsm{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fill,minmax(250px, 1fr))
+}
+
+/*---scher design---*/
+
+.dark{
+    background: #FC9467;
+    color: #333;
+}
+
+
+.dark h2,blockqoute, cite{
+    color: #f7f7f7;
+}
+
+.dark a {
+    color: #ff9e59;
+    font-weight: bold;
+
+}
+
+.list ul {
+    line-height: 1.5;
+    margin-left: 0;
+}
+
+.list li {
+    margin-bottom: 1rem;
+    list-style-type: none;
+    margin-left: -2.5rem;
+}
+.logo {
+    font-size: 1.8rem;
+    text-align: left;
+    padding-right: 30vw;
+}
+
+footer{
+    background-color: #6B5353;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #f7f7f7;
+    padding: 1rem 0 3rem;
+    margin-top: 2rem;
+}
+
+.middleimg{
+    background: url(../img/themarketsquare.jpg);
+    padding: 7rem;
+    height: 15rem;
+    padding-bottom: 100px;
+    padding-top: 100px ;
+    background-size: cover;
+    text-align: left;
+    margin-top: 2rem;
+}
+
+footer p {
+    margin: 0 12rem;
+}
+
+footer a{
+    color: rgb(1, 1, 1);
+}
+
+footer a:hover {
+    color: #f7f7f7;
+    transition: all 0.3s ease-in-out;
+}
+
+.connections{
+    position: relative;
+    margin: 0 auto;
+}
+
+.connections ul{
+    margin: 0;
+    padding: 0;
+}
+
+.connections li{
+    margin: 0 10px;
+    padding: 0;
+    list-style: none;
+    display: inline-block;  
+}
+
+.connections a:link{
+        border-bottom: none;      
+    }
+
+.connections img, .connections svg{
+    border: none;
+}
+
+.connections a:hover img, .connections a:hover svg{
+    border-bottom: none;
+}
+
+ .connections svg {
+    margin: 2rem auto;
+}
+
+.connections a:hover svg path {
+    fill: #333;
+    transition: all 0.2s ease-in-out;
+}
+
+footer .connections a:hover svg path {
+    fill:  #C2C2C2;
+    transition: all 0.2s ease-in-out;
+}
+
+/*--- adding media for device types---*/
+@media (max-width: 600px) {
+    nav{ flex-direction: column;
+    align-items: center;}
+}
+
+nav ul li{
+    display: list-item;
+    margin: 10px;
+}
