@@ -12,7 +12,9 @@ head  {
 section {
     width: 80%;
     max-width: 800px;
-    margin: auto;}
+    margin: auto;
+}
+    
 
 header {
     background: 
@@ -118,9 +120,8 @@ nav {
     width: 100%;
     background-color: #6B5353;
     color: #f7f7f7;
-    padding: -3rem 0;
     font-size: 1rem;
-    position: relative;
+    position: sticky;
 }
 
 
@@ -134,7 +135,7 @@ text-align: right;
 font-style: italic;
 letter-spacing: 1px;
 list-style-type: none;
-padding-right: 100px;
+padding: 1rem;
 }
 
 nav a:link{
@@ -182,6 +183,8 @@ nav a:hover{
 .dark{
     background: #FC9467;
     color: #333;
+    padding: 4rem 0;
+    margin-top: -2rem;
 }
 
 
@@ -193,6 +196,11 @@ nav a:hover{
     color: #ff9e59;
     font-weight: bold;
 
+}
+
+.street {
+
+   margin: 3rem 0;
 }
 
 .list ul {
@@ -228,7 +236,13 @@ footer{
     padding-top: 100px ;
     background-size: cover;
     text-align: left;
-    margin-top: 2rem;
+   
+}
+
+.middleimg h2 {
+    max-width: 800px;
+    margin: auto;
+    padding-top: 6rem;
 }
 
 footer p {
