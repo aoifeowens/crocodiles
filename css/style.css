@@ -1,7 +1,7 @@
 body {
     background: #f7f7f7;
     color: #1b1b1b;
-    font-family: 'EB Garamond', serif;
+    font-family: 'Buenard', serif;
 }
 
 head  {
@@ -21,8 +21,13 @@ header {
     url(../img/titleimg2.jpg);
     padding: 7rem;
     background-size: cover;
+    text-align: center;
 }
-
+header h3 {
+    text-align: left;
+    margin-left: 12rem;
+    margin-right: 12rem;
+}
 img {
     display: block;
     padding: 0;
@@ -37,8 +42,9 @@ img {
 
 /*---- Styling typography ----*/
 h1, h2, h3{
-    font-family: 'EB Garamond', serif;
+    font-family:'Gilda Display', serif;;
 }
+
 
 p,blockquote{
     line-height: 1.5rem;
@@ -53,7 +59,7 @@ h1 {
 
 h2{
     font-size: 2.25rem;
-    color: #181818;
+    color:#333;
     font-weight: bold;
     margin: 2rem 0 1rem;
 }
@@ -80,6 +86,7 @@ header h2 {
     margin-top: 0;
     margin-bottom: 1.5;
 }
+
 
 header p {
     font-size: 2.75rem;
@@ -163,8 +170,15 @@ nav a:hover{
 
 /*--alighnment of images---*/
 
+.darkstreet{
+    background-color: #fe8855;
+    padding-top: 1.5rem;
+    color: #333;
+}
 
-
+.darkstreet h2, cite{
+    color: #f7f7f7;
+}
 .gridimg{
     display: grid;
     gap: 10px;
@@ -254,7 +268,7 @@ footer a{
 }
 
 footer a:hover {
-    color: #f7f7f7;
+    color:#fe8855;
     transition: all 0.3s ease-in-out;
 }
 
@@ -297,7 +311,7 @@ footer a:hover {
 }
 
 footer .connections a:hover svg path {
-    fill:  #C2C2C2;
+    fill:#fe8855;
     transition: all 0.2s ease-in-out;
 }
 
